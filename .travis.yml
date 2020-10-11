@@ -11,5 +11,8 @@ jdk:
 git:
   depth: 1
 
+# https://blog.travis-ci.com/2019-04-15-xenial-default-build-environment
+dist: trusty
+
 script:
   - mvn test -B
