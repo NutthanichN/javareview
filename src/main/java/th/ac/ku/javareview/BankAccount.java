@@ -23,4 +23,11 @@ public class BankAccount {
         }
         balance -= amount;
     }
+
+    @Override
+    public String toString() {
+        return "BankAccount{" +
+                "balance=" + balance +
+                '}';
+    }
 }
