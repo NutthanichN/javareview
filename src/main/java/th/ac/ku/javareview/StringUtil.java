@@ -1,5 +1,7 @@
 package th.ac.ku.javareview;
 
+import static java.lang.Character.isLowerCase;
+
 public class StringUtil {
     public boolean isPalindrome(String s) {
         int n = s.length();
@@ -10,5 +12,14 @@ public class StringUtil {
             }
         }
         return true;
+    }
+
+    public boolean hasLowerCase(String s) {
+        for (int i = 0; i < s.length(); i++) {
+            if (isLowerCase(s.charAt(i))) {
+                return true;
+            }
+        }
+        return false;
     }
 }
