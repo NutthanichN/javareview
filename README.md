@@ -6,10 +6,10 @@
 [![Codacy Badge](https://app.codacy.com/project/badge/Coverage/f7e838c2a1ad4663a13185be4e8473d0)](https://www.codacy.com/gh/NutthanichN/javareview/dashboard?utm_source=github.com&utm_medium=referral&utm_content=NutthanichN/javareview&utm_campaign=Badge_Coverage)
 
 Basic java project for practicing:
-  * Java
-  * Maven
-*  JUnit 5
-*  JaCoCo
+*   Java
+*   Maven
+*   JUnit 5
+*   JaCoCo
 * TravisCI integration
 * Code Climate integration
 * Codacy integration
